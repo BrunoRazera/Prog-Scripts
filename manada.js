@@ -9,12 +9,14 @@ Animal.prototype = {
 };
 
 function Cao() {
+  Animal.call(this);
   this.barulho = "Au";
 };
 
 Cao.prototype = new Animal();
 
 function Gato() {
+  Animal.call(this);
   this.barulho = "Miau";
 };
 
