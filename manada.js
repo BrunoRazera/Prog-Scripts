@@ -70,7 +70,7 @@ manadaSustenidaDupla.adicionar(animal);
 });
 
 
-console.log(manadaVirgula.lista_animais);
+
 // Print Esperado: Au, Miau
 console.log(manadaVirgula.barulhos());
 
