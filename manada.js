@@ -28,6 +28,13 @@ Manada.prototype = {
   adicionar: function (animal) {
     this.animais.push(animal);
     return console.log("Animal adicionado");
+  },
+  barulhos: function () {
+    barulho = [];
+    this.animais.forEach(function (animal) {
+      barulho.push(animal.fazerBarulho());
+    });
+    return console.log(barulho);
   }
 };
 
